@@ -1,0 +1,27 @@
+{
+  "name": "game-of-drones-api",
+  "main": "server.js",
+  "author": {
+    "name": "Nicolas Duque",
+    "email": "dukenicols@gmail.com"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "config": "^1.21.0",
+    "express": "~4.0.0",
+    "fast-csv": "^2.1.0",
+    "lodash": "^4.15.0",
+    "mathjs": "^3.4.1",
+    "mongoose": "~4.5.9",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.0.2"
+  }
+}
