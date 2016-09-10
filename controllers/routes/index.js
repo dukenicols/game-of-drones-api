@@ -11,4 +11,5 @@ module.exports = function(router) {
       res.json({ message: 'hooray! welcome to our api!' });
   });
 
+  require('./game')(router);
 }

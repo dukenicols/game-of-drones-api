@@ -1,0 +1,6 @@
+{
+  "DB": {
+    "driver": "mongodb",
+    "host": "mlab.com"
+  }
+}
